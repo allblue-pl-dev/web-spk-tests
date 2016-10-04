@@ -1,0 +1,3 @@
+[submodule "dev/git/bower-spk"]
+	path = dev/git/bower-spk
+	url = https://github.com/allblue-pl/bower-spk
