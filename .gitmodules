@@ -1,3 +1,9 @@
 [submodule "dev/git/bower-spk"]
 	path = dev/git/bower-spk
 	url = https://github.com/allblue-pl/bower-spk
+[submodule ".dev/node_modules/bower-dependencies-resolver"]
+	path = .dev/node_modules/bower-dependencies-resolver
+	url = https://github.com/allblue-pl/npm-bower-dependencies-resolver.git
+[submodule ".dev/node_modules/ab-web"]
+	path = .dev/node_modules/ab-web
+	url = https://github.com/allblue-pl/npm-ab-web

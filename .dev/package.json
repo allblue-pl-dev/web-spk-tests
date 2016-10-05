@@ -1,0 +1,7 @@
+{
+  "name": "e-weterynarz",
+  "dependencies": {
+    "bower": "1.7.*",
+    "mysql": "2.11.*"
+  }
+}

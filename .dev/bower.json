@@ -1,0 +1,6 @@
+{
+  "name": "web-spk-tests",
+  "dependencies": {
+    "bdr-git": "bdr:../dev/git/*"
+  }
+}

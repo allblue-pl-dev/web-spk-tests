@@ -1,0 +1,6 @@
+{
+    "directory": "../dev/bower",
+    "resolvers": [
+      "bower-dependencies-resolver"
+    ]
+}

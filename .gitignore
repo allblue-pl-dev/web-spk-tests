@@ -1,0 +1,9 @@
+
+# NPM
+node_modules
+
+# Bower
+bower
+
+# Windows
+Thumbs.db

@@ -1,0 +1,64 @@
+{
+    "backPath": "../back/cache/ABTemplate/sys",
+    "frontPath": "../front/tmp/ab-template/sys",
+    "indexPath": "../",
+    "templates": [
+        "#../back/ecore/*/abTemplate",
+        "#../back/esite/overwrites/SPTpl/abTemplate"
+    ],
+    "js": [
+        "../dev/bower/bluebird/js/browser/bluebird.min.js",
+        "../dev/bower/jquery/dist/jquery.min.js",
+        "../dev/bower/bootstrap/dist/js/bootstrap.min.js",
+        "../dev/bower/moment/min/moment-with-locales.min.js",
+        "../dev/bower/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js",
+
+        "../dev/git/ab-code-js/js/*.js",
+
+        "../dev/git/spk/js/Lib/*.js",
+        "../dev/git/spk/js/Lib/*/*.js",
+        "../dev/git/spk/js/spk.js",
+
+        "../dev/git/spk-ab-api/js/*.js",
+        "../dev/git/spk-ab-date/js/*.js",
+        "../dev/git/spk-ab-forms/js/*.js",
+        "../dev/git/spk-ab-links/js/*.js",
+        "../dev/git/spk-ab-notifications/js/*.js",
+        "../dev/git/spk-ab-tables/js/*.js",
+
+        "../back/ecore/SPK/front/spk/*.js",
+        "../back/ecore/SPKForms/front/spk/*.js",
+        "../back/ecore/SPKTables/front/spk/*.js",
+
+        "../back/esite/overwrites/Sys/front/js/*.js"
+    ],
+    "less": [
+    	"../dev/git/ab-web_bootstrap/less",
+
+        "../back/esite/overwrites/LemonBee/less",
+
+        "../back/esite/overwrites/Sys/less"
+    ],
+    "css": [
+        "../dev/bower/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css",
+
+        "../back/esite/overwrites/LemonBee/front/css/*.css",
+
+        "../back/esite/overwrites/Sys/front/css/*.css"
+    ],
+    "spk": {
+        "layouts": [
+            "../dev/git/spk/*/layouts/*.html",
+            "../dev/git/spk-ab-file-input/layouts/*.html",
+            "../dev/git/spk-ab-forms/layouts/*/*.html",
+            "../dev/git/spk-ab-notifications/layouts/*.html",
+            "../dev/git/spk-ab-tables/layouts/*.html",
+
+            "../back/ecore/*/front/spk/layouts/*.html",
+            "../back/ecore/*/front/spk/layouts/*/*.html",
+
+			"../back/esite/overwrites/*/front/spk/layouts/*.html",
+            "../back/esite/overwrites/*/front/spk/layouts/*/*.html"
+        ]
+    }
+}
